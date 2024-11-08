@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\ramag\\Desktop\\SDL2",
+            "binaryPath": "c:\\Users\\ramag\\Desktop\\SDL2\\main",
+            "binaryArgs": []
+        }
+    ]
+}
