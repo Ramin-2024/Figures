@@ -47,7 +47,7 @@ bool square(SDL_Renderer* renders, int x, int y, int width, int height)
         std::cout << "Render Falled!!!" << std::endl;
         return false;
     }
-    return true;
+    return true; ///
 }
 
 bool triangle(SDL_Renderer* renderer, int x1, int y1, int x2, int y2, int x3, int y3) // координаты линий. х1 и у1 = координаты первой линии, х2 и у2 и х3 и у3 - координаты второй и третей линий.
