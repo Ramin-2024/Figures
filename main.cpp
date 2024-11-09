@@ -105,7 +105,33 @@ class Rectangle : public Figure
 
 };
 
-bool triangle(SDL_Renderer* renderer, int x1, int y1, int x2, int y2, int x3, int y3) // координаты линий. х1 и у1 = координаты первой линии, х2 и у2 и х3 и у3 - координаты второй и третей линий.
+class Triangle {
+public:
+    Triangle(SDL_Renderer* renderer, SDL_Color color)
+    : m_renderer(renderer), m_color(color) {}
+    void setVertices(int x1, int y1, int x2, int y2, int x3, int y3) 
+    {
+    m_vertices[0] = {x1, y1};
+    m_vertices[1] = {x2, y2};
+    m_vertices[2] = {x3, y3};
+    }
+    void render() {
+    // Set the draw color
+    SDL_SetRenderDrawColor(m_renderer, m_color.r, m_color.g, m_color.b, m_color.a);
+
+    // Draw the triangle by connecting the vertices
+    SDL_RenderDrawLine(m_renderer, m_vertices[0].x, m_vertices[0].y,m_vertices[1].x, m_vertices[1].y);
+    SDL_RenderDrawLine(m_renderer, m_vertices[1].x, m_vertices[1].y,m_vertices[2].x, m_vertices[2].y);
+    SDL_RenderDrawLine(m_renderer, m_vertices[2].x, m_vertices[2].y,m_vertices[0].x, m_vertices[0].y);
+}
+private:
+    SDL_Renderer* m_renderer;
+    SDL_Color m_color;
+    SDL_Point m_vertices[3];
+};
+
+
+bool triangle(SDL_Renderer* renderer, int x1, int y1, int x2, int y2, int x3, int y3) // веришны треугольника - х1 и у1(первая вершина) и так далее
 {
     if(renderer == nullptr) return false;
     SDL_Point p1 = {x1, y1}; // линия 1
@@ -122,6 +148,8 @@ int main(int argc, char* argv[])
     sdl_init("Window", WIDTH, HEIGHT);
     bool running = true;
     SDL_Event event;
+    Triangle triangle(render, {0, 255, 0, 255});
+    triangle.setVertices(400, 100, 300, 500, 500, 500);
 
     while (running) {
         while (SDL_PollEvent(&event)) {
@@ -133,12 +161,7 @@ int main(int argc, char* argv[])
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); // Заливаем экран чёрным
         SDL_RenderClear(render);
         SDL_Color green = {0, 255, 0, 255};
-        Square top(150, 300, 220, green);
-        top.draw(render);
-        Rectangle recta(200, 100, 50, 80, green);
-        recta.draw(render);
-        
-        SDL_RenderPresent(render); 
+        triangle.render();
     }
     quit();
     return 0;
