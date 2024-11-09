@@ -50,6 +50,51 @@ bool square(SDL_Renderer* renders, int x, int y, int width, int height)
     return true; ///
 }
 
+class Figure
+{
+    int x;
+    int y;
+    SDL_Color color;
+    SDL_Renderer* render = nullptr;
+    public:
+    int getX() const {return x;}
+    void setX(int newX) {x = newX;}
+    int getY() const {return y;}
+    void setY(int newY) {y = newY;}
+    SDL_Color getColor() const {return color;}
+    void setColor(SDL_Color& newColor) {color = newColor;}
+    virtual void draw(SDL_Renderer* render) = 0;
+    SDL_Renderer* getRender() {return render;}
+    void setRender(SDL_Renderer& newRender) {render = &newRender;}
+};
+
+class Square : public Figure // квадрат
+{
+    int width;
+    int height;
+    SDL_Rect rect;
+    public:
+    int getWidth() const {return width;}
+    void setWidth(int newWidth) {width = newWidth;}
+    int getHeight() const {return height;}
+    void setHeight(int newHeight) {height = newHeight;}
+    SDL_Rect getRect() const {return rect;}
+    void setRect(SDL_Rect& newRect) {rect = newRect;}
+    Square(int sides, int x, int y, SDL_Color color) : width(sides), height(sides)
+    {
+        setX(x);
+        setY(y);
+        rect = {x, y, width, height};
+        setColor(color);
+        SDL_SetRenderDrawColor(getRender(), 125, 230, 55, 75);
+    }
+    void draw(SDL_Renderer* render) override
+    {
+        SDL_SetRenderDrawColor(render, getColor().r, getColor().g, getColor().b, getColor().a);
+        SDL_RenderFillRect(render, &rect);
+    }
+};
+
 bool triangle(SDL_Renderer* renderer, int x1, int y1, int x2, int y2, int x3, int y3) // координаты линий. х1 и у1 = координаты первой линии, х2 и у2 и х3 и у3 - координаты второй и третей линий.
 {
     if(renderer == nullptr) return false;
@@ -77,11 +122,11 @@ int main(int argc, char* argv[])
 
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); // Заливаем экран чёрным
         SDL_RenderClear(render);
-
-        SDL_SetRenderDrawColor(render, 255, 0, 0, 255); // Красный цвет для треугольника
-        triangle(render, 320, 173, 253, 283, 387, 283);
-        square(render, 250, 120, 100, 100);
-
+        SDL_Color green = {0, 255, 0, 255};
+        Square top(150, 300, 220, green);
+        top.draw(render);
+        
+        
         SDL_RenderPresent(render); 
     }
     quit();
