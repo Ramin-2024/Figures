@@ -136,22 +136,7 @@ class Triangle : public Figure {
     }
 };
 
-void triangle(SDL_Renderer* render)
-{
-    if (render == nullptr) return;
-    SDL_Vertex vertices[3];
-    vertices[0].position = {150.0f, 70.0f};
-    vertices[0].color = {255, 0, 0, 255};
 
-    vertices[1].position = {100.0f, 170.0f};
-    vertices[1].color = {255, 0, 0, 255};
-    
-    vertices[2].position = {250.0f, 150.0f};
-    vertices[2].color = {255, 0, 0, 255};
-
-    SDL_RenderGeometry(render, nullptr, vertices, 3, nullptr, 0);
-    SDL_RenderPresent(render);
-}
 
 int main(int argc, char* argv[])
 {
