@@ -105,42 +105,25 @@ class Rectangle : public Figure
 
 };
 
-class Triangle {
-public:
-    Triangle(SDL_Renderer* renderer, SDL_Color color)
-    : m_renderer(renderer), m_color(color) {}
-    void setVertices(int x1, int y1, int x2, int y2, int x3, int y3) 
-    {
-    m_vertices[0] = {x1, y1};
-    m_vertices[1] = {x2, y2};
-    m_vertices[2] = {x3, y3};
-    }
-    void render() {
-    // Set the draw color
-    SDL_SetRenderDrawColor(m_renderer, m_color.r, m_color.g, m_color.b, m_color.a);
+class Triangle : public Figure {
 
-    // Draw the triangle by connecting the vertices
-    SDL_RenderDrawLine(m_renderer, m_vertices[0].x, m_vertices[0].y,m_vertices[1].x, m_vertices[1].y);
-    SDL_RenderDrawLine(m_renderer, m_vertices[1].x, m_vertices[1].y,m_vertices[2].x, m_vertices[2].y);
-    SDL_RenderDrawLine(m_renderer, m_vertices[2].x, m_vertices[2].y,m_vertices[0].x, m_vertices[0].y);
-}
-private:
-    SDL_Renderer* m_renderer;
-    SDL_Color m_color;
-    SDL_Point m_vertices[3];
 };
 
-
-bool triangle(SDL_Renderer* renderer, int x1, int y1, int x2, int y2, int x3, int y3) // веришны треугольника - х1 и у1(первая вершина) и так далее
+void triangle(SDL_Renderer* render)
 {
-    if(renderer == nullptr) return false;
-    SDL_Point p1 = {x1, y1}; // линия 1
-    SDL_Point p2 = {x2, y2};
-    SDL_Point p3 = {x3, y3};
-    SDL_RenderDrawLine(renderer, p1.x, p1.y, p2.x, p2.y);
-    SDL_RenderDrawLine(renderer, p1.x, p1.y, p3.x, p3.y);
-    SDL_RenderDrawLine(renderer, p2.x, p2.y, p3.x, p3.y);
-    return true;
+    if (render == nullptr) return;
+    SDL_Vertex vertices[3];
+    vertices[0].position = {150.0f, 70.0f};
+    vertices[0].color = {255, 0, 0, 255};
+
+    vertices[1].position = {100.0f, 170.0f};
+    vertices[1].color = {255, 0, 0, 255};
+    
+    vertices[2].position = {250.0f, 150.0f};
+    vertices[2].color = {255, 0, 0, 255};
+
+    SDL_RenderGeometry(render, nullptr, vertices, 3, nullptr, 0);
+    SDL_RenderPresent(render);
 }
 
 int main(int argc, char* argv[])
@@ -148,8 +131,7 @@ int main(int argc, char* argv[])
     sdl_init("Window", WIDTH, HEIGHT);
     bool running = true;
     SDL_Event event;
-    Triangle triangle(render, {0, 255, 0, 255});
-    triangle.setVertices(400, 100, 300, 500, 500, 500);
+    
 
     while (running) {
         while (SDL_PollEvent(&event)) {
@@ -161,7 +143,12 @@ int main(int argc, char* argv[])
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); // Заливаем экран чёрным
         SDL_RenderClear(render);
         SDL_Color green = {0, 255, 0, 255};
-        triangle.render();
+        SDL_Point p1 = {200, 250};
+        SDL_Point p2 = {100, 150};
+        SDL_Point p3 = {300, 350};
+        triangle(render);
+
+
     }
     quit();
     return 0;
