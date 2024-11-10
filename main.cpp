@@ -39,6 +39,7 @@ void quit()
     int y;
     SDL_Color color;
     SDL_Renderer* render = nullptr;
+
     public:
     Figure(int x, int y, SDL_Color color) : x(x), y(y), color(color){};
     virtual ~Figure() = default;
@@ -106,7 +107,33 @@ class Rectangle : public Figure
 };
 
 class Triangle : public Figure {
-
+    private:
+    float x1, x2, x3, y1, y2, y3;
+    SDL_Renderer* render;
+    public:
+    Triangle(float x1, float y1, float x2, float y2, float x3, float y3, SDL_Renderer* render, SDL_Color color) : Figure(0, 0, color), x1(x1),
+    y1(y1), x2(x2), y2(y2), x3(x3), y3(y3), render(render)
+    {}
+    ~Triangle() override = default;
+    void draw(SDL_Renderer* triangle_render)
+    {
+            if(triangle_render != nullptr)
+            {
+                SDL_Vertex vertices[3];
+                vertices[0].position = {x1, y1};
+                vertices[0].color = this->getColor();
+                
+                vertices[1].position = {x2, y2};
+                vertices[1].color = this->getColor();
+                
+                vertices[2].position = {x3, y3};
+                vertices[2].color = this->getColor();
+                
+                SDL_RenderGeometry(render, nullptr, vertices, 3, nullptr, 0);
+                SDL_RenderPresent(render);
+            }
+        
+    }
 };
 
 void triangle(SDL_Renderer* render)
@@ -146,7 +173,8 @@ int main(int argc, char* argv[])
         SDL_Point p1 = {200, 250};
         SDL_Point p2 = {100, 150};
         SDL_Point p3 = {300, 350};
-        triangle(render);
+        Triangle triangl(80, 150, 100, 200, 150, 240, render, green);
+        triangl.draw(render);
 
 
     }
