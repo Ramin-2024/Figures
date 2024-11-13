@@ -35,6 +35,7 @@ void quit()
 
  class Figure
 {
+    private:
     int x;
     int y;
     SDL_Color color;
@@ -43,6 +44,7 @@ void quit()
     public:
     Figure(int x, int y, SDL_Color color) : x(x), y(y), color(color){};
     virtual ~Figure() = default;
+
     int getX() const {return x;}
     void setX(int newX) {x = newX;}
     int getY() const {return y;}
@@ -115,9 +117,9 @@ class Triangle : public Figure {
     y1(y1), x2(x2), y2(y2), x3(x3), y3(y3), render(render)
     {}
     ~Triangle() override = default;
-    void draw(SDL_Renderer* triangle_render)
+    void draw(SDL_Renderer* render) override
     {
-            if(triangle_render != nullptr)
+            if(render != nullptr)
             {
                 SDL_Vertex vertices[3];
                 vertices[0].position = {x1, y1};
@@ -136,6 +138,46 @@ class Triangle : public Figure {
     }
 };
 
+class Circle : public Figure
+{
+    private:
+    int radius;
+    int diameter;
+    public:
+    Circle(int x, int y, SDL_Color color, int radius) : Figure(x, y, color), radius(radius), diameter(radius * 2) {}
+    void draw(SDL_Renderer* render) override
+    {
+        if(render == nullptr) return;
+        SDL_SetRenderDrawColor(render, getColor().r, getColor().g, getColor().b, getColor().a);
+
+        int x_pos = radius;
+        int y_pos = 0;
+        int err = 0;
+
+        while (x_pos >= y_pos) {
+        SDL_RenderDrawPoint(render, this->getX() + x_pos, this->getY() + y_pos);
+        SDL_RenderDrawPoint(render, this->getX() + x_pos, this->getY() - y_pos);
+        SDL_RenderDrawPoint(render, this->getX() - x_pos, this->getY() + y_pos);
+        SDL_RenderDrawPoint(render, this->getX() - x_pos, this->getY() - y_pos);
+        SDL_RenderDrawPoint(render, this->getX() + y_pos, this->getY() + x_pos);
+        SDL_RenderDrawPoint(render, this->getX() + y_pos, this->getY() - x_pos);
+        SDL_RenderDrawPoint(render, this->getX() - y_pos, this->getY() + x_pos);
+        SDL_RenderDrawPoint(render, this->getX() - y_pos, this->getY() - x_pos);
+
+
+        if (err <= x_pos) {
+            y_pos++;
+            err += (y_pos * 2 + 1);
+        }
+
+        if (err > y_pos) {
+            x_pos--;
+            err -= (x_pos * 2 + 1);
+        }
+    }
+}
+};
+
 
 
 int main(int argc, char* argv[])
@@ -152,15 +194,13 @@ int main(int argc, char* argv[])
             }
         }
 
-        SDL_SetRenderDrawColor(render, 255, 255, 255, 255); // Заливаем экран чёрным
+        SDL_SetRenderDrawColor(render, 255, 255, 255, 255); 
         SDL_RenderClear(render);
         SDL_Color green = {0, 255, 0, 255};
-        SDL_Point p1 = {200, 250};
-        SDL_Point p2 = {100, 150};
-        SDL_Point p3 = {300, 350};
-        Triangle triangl(80, 150, 100, 200, 150, 240, render, green);
-        triangl.draw(render);
-
+        
+        Circle circle(300, 200, green, 100);
+        circle.draw(render);
+        SDL_RenderPresent(render);
 
     }
     quit();
