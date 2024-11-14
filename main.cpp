@@ -145,9 +145,10 @@ class Circle : public Figure
     int diameter;
     public:
     Circle(int x, int y, SDL_Color color, int radius) : Figure(x, y, color), radius(radius), diameter(radius * 2) {}
-    void draw(SDL_Renderer* render) override
-    {
-        if(render == nullptr) return;
+    void draw(SDL_Renderer* render) override {
+        if (render == nullptr) return;
+
+        // Устанавливаем цвет для заполнения
         SDL_SetRenderDrawColor(render, getColor().r, getColor().g, getColor().b, getColor().a);
 
         int x_pos = radius;
@@ -155,27 +156,23 @@ class Circle : public Figure
         int err = 0;
 
         while (x_pos >= y_pos) {
-        SDL_RenderDrawPoint(render, this->getX() + x_pos, this->getY() + y_pos);
-        SDL_RenderDrawPoint(render, this->getX() + x_pos, this->getY() - y_pos);
-        SDL_RenderDrawPoint(render, this->getX() - x_pos, this->getY() + y_pos);
-        SDL_RenderDrawPoint(render, this->getX() - x_pos, this->getY() - y_pos);
-        SDL_RenderDrawPoint(render, this->getX() + y_pos, this->getY() + x_pos);
-        SDL_RenderDrawPoint(render, this->getX() + y_pos, this->getY() - x_pos);
-        SDL_RenderDrawPoint(render, this->getX() - y_pos, this->getY() + x_pos);
-        SDL_RenderDrawPoint(render, this->getX() - y_pos, this->getY() - x_pos);
+            // Заполняем горизонтальные линии от левой до правой стороны круга
+            SDL_RenderDrawLine(render, this->getX() - x_pos, this->getY() + y_pos, this->getX() + x_pos, this->getY() + y_pos);
+            SDL_RenderDrawLine(render, this->getX() - x_pos, this->getY() - y_pos, this->getX() + x_pos, this->getY() - y_pos);
+            SDL_RenderDrawLine(render, this->getX() - y_pos, this->getY() + x_pos, this->getX() + y_pos, this->getY() + x_pos);
+            SDL_RenderDrawLine(render, this->getX() - y_pos, this->getY() - x_pos, this->getX() + y_pos, this->getY() - x_pos);
 
+            if (err <= x_pos) {
+                y_pos++;
+                err += (y_pos * 2 + 1);
+            }
 
-        if (err <= x_pos) {
-            y_pos++;
-            err += (y_pos * 2 + 1);
-        }
-
-        if (err > y_pos) {
-            x_pos--;
-            err -= (x_pos * 2 + 1);
+            if (err > y_pos) {
+                x_pos--;
+                err -= (x_pos * 2 + 1);
+            }
         }
     }
-}
 };
 
 
