@@ -9,7 +9,7 @@ private:
     int x;
     int y;
     SDL_Color color;
-
+//
 public:
     Figure(int x, int y, SDL_Color color);
     virtual ~Figure() = default;
