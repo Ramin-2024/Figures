@@ -2,8 +2,6 @@
 
 Figure::Figure(int x, int y, SDL_Color color) : x(x), y(y), color(color) {}
 
-Figure::~Figure() = default;
-
 int Figure::getX() const {
     return x;
 }
