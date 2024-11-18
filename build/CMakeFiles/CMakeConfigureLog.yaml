@@ -1,0 +1,114 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/3.31.0/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/3.31.0/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-b6cizq"
+      binary: "C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-b6cizq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-b6cizq'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_60250/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_60250.dir/build.make CMakeFiles/cmTC_60250.dir/build
+        make.exe[1]: Entering directory `C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-b6cizq'
+        Системе не удается найти указанный путь.
+        make.exe[1]: *** [CMakeFiles/cmTC_60250.dir/CMakeCCompilerABI.c.obj] ╬°шсър 1
+        make.exe[1]: Leaving directory `C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-b6cizq'
+        make.exe: *** [cmTC_60250/fast] ╬°шсър 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/msys64/ucrt64/bin/cc.exe"
+    directories:
+      source: "C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-nprant"
+      binary: "C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-nprant"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-nprant'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/GnuWin32/bin/make.exe -f Makefile cmTC_418cb/fast
+        C:/PROGRA~2/GnuWin32/bin/make.exe  -f CMakeFiles/cmTC_418cb.dir/build.make CMakeFiles/cmTC_418cb.dir/build
+        make.exe[1]: Entering directory `C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-nprant'
+        Системе не удается найти указанный путь.
+        make.exe[1]: *** [CMakeFiles/cmTC_418cb.dir/testCCompiler.c.obj] ╬°шсър 1
+        make.exe[1]: Leaving directory `C:/Users/ramag/Desktop/SDL2/build/CMakeFiles/CMakeScratch/TryCompile-nprant'
+        make.exe: *** [cmTC_418cb/fast] ╬°шсър 2
+        
+      exitCode: 2
+...
