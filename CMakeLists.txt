@@ -1,27 +1,28 @@
 cmake_minimum_required(VERSION 3.10)
+project(MySDLProject)
 
-project(Shapes VERSION 0.0.1)
+# Укажите путь к папке с заголовочными файлами SDL2
+include_directories(C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include)
 
-# Укажите путь к заголовочным файлам
-set(SDL2_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/src/include")
-# Укажите путь к библиотеке (необходимо указать сам файл)
-set(SDL2_LIBRARY "${CMAKE_SOURCE_DIR}/src/lib/libSDL2.a")
+# Укажите путь к вашим заголовочным файлам
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Include)
 
-# Указываем директории с заголовочными файлами
-include_directories(${SDL2_INCLUDE_DIR} Include)
+# Укажите путь к библиотекам SDL2
+link_directories(C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/lib)
 
-# Указываем источники
+# Укажите все ваши cpp файлы
 set(SOURCES
     main.cpp
     CPP/Circle.cpp
+    CPP/CustomForm.cpp
+    CPP/Figure.cpp
     CPP/Rectangle.cpp
     CPP/Square.cpp
     CPP/Triangle.cpp
-    CPP/Figure.cpp
 )
 
-# Создаем исполняемый файл
-add_executable(${PROJECT_NAME} ${SOURCES})
+# Создание исполняемого файла
+add_executable(MySDLProject ${SOURCES})
 
-# Линковка с библиотеками
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY})
+# Линковка с библиотеками SDL2 и SDL2main
+target_link_libraries(MySDLProject SDL2 SDL2main)

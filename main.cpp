@@ -1,5 +1,10 @@
+//после окончания основной работы не забудь добавить SDL2.dll в сборку cmake или в папку build
 #include <SDL2/SDL.h>
+#include <windows.h>
 #include <iostream>
+#include <vector>
+#include "Shapes.h"
+#include "Figure.h"
 const int WIDTH = 640;
 const int HEIGHT = 480;
 SDL_Renderer* render = nullptr;
@@ -33,25 +38,40 @@ void quit()
     SDL_Quit();
 }
 
-int main(int argc, char* argv[])
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
     sdl_init("Window", WIDTH, HEIGHT);
     bool running = true;
     SDL_Event event;
-    
-
+    SDL_Color green = {0, 255, 0, 255};
+    CustomForm cust(green);
+    struct Point
+    {
+        int x, y;
+    };
+    std::vector<Point> points;
     while (running) {
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
                 running = false;
             }
+            else if(event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                SDL_MouseButtonEvent* mouse = (SDL_MouseButtonEvent*)&event;
+                points.push_back({mouse->x, mouse->y});
+            }
         }
 
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); 
         SDL_RenderClear(render);
-        SDL_Color green = {0, 255, 0, 255};
+
+        SDL_SetRenderDrawColor(render, green.r, green.g, green.b, green.a);
+        for (const auto& point : points) 
+        {
+            SDL_RenderDrawPoint(render, point.x, point.y);
+        }
         
-        
+
         SDL_RenderPresent(render);
 
     }

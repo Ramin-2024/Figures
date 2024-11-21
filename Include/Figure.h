@@ -1,6 +1,7 @@
 #ifndef FIGURE_H
 #define FIGURE_H
 
+#include <array>
 #include <SDL2/SDL.h>
 
 class Figure

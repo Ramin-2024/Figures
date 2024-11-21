@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\main.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\main.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/main.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Circle.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Circle.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Circle.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\CustomForm.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\CustomForm.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/CustomForm.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Figure.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Figure.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Figure.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Rectangle.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Rectangle.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Rectangle.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Square.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Square.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Square.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Triangle.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Triangle.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Triangle.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj"
+}
+]
