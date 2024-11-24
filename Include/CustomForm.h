@@ -6,14 +6,15 @@
 class CustomForm : public Figure
 {
     private:
-    std::array <SDL_Point, 6> points;
-    
+    std::vector<SDL_Point> points;
 
     public:
     CustomForm(SDL_Color color);
-    std::array <SDL_Point, 6> getPoints() const;
-    void setPoints(std::array <SDL_Point, 6> newPoints);
-    void fill();
+    std::vector <SDL_Point> getPoints() const;
+    void setPoints(std::vector <SDL_Point> newPoints);
+    void addPoint(SDL_Point point);
+    bool line = false;
+    bool fill = false;
     void draw(SDL_Renderer* render) override;
     
 };

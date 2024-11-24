@@ -45,11 +45,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     SDL_Event event;
     SDL_Color green = {0, 255, 0, 255};
     CustomForm cust(green);
-    struct Point
-    {
-        int x, y;
-    };
-    std::vector<Point> points;
+    
+
     while (running) {
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
@@ -57,19 +54,29 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
             }
             else if(event.type == SDL_MOUSEBUTTONDOWN)
             {
+                cust.line = true;
                 SDL_MouseButtonEvent* mouse = (SDL_MouseButtonEvent*)&event;
-                points.push_back({mouse->x, mouse->y});
+                cust.addPoint({mouse->x, mouse->y});
+                //}
+               
             }
+            else if(event.type == SDL_KEYDOWN)
+                {
+                    switch(event.key.keysym.sym)
+                    {
+                        case SDLK_e:
+                        cust.fill = true;
+                        break;
+                    }
+                }
         }
 
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); 
         SDL_RenderClear(render);
 
-        SDL_SetRenderDrawColor(render, green.r, green.g, green.b, green.a);
-        for (const auto& point : points) 
-        {
-            SDL_RenderDrawPoint(render, point.x, point.y);
-        }
+        cust.draw(render);
+        
+        
         
 
         SDL_RenderPresent(render);
