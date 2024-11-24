@@ -2,6 +2,8 @@
 
 std::vector<SDL_Point> CustomForm::getPoints() const {return points;}
 void CustomForm::setPoints(std::vector <SDL_Point> newPoints) {points = newPoints;}
+
+
 CustomForm::CustomForm(SDL_Color color) : Figure(0, 0, color) {}
 void CustomForm::addPoint(SDL_Point point) 
 {
@@ -31,18 +33,14 @@ void CustomForm::draw(SDL_Renderer* render)
                 SDL_RenderDrawLine(render, points[points.size()-1].x, points[points.size()-1].y, points.front().x, points.front().y);
         }
     }
-    if (fill && points.size() > 2) 
+    if(fill)
     {
-    // Добавим первую точку в конец вектора для замыкания полигона
-    std::vector<SDL_Vertex> vertices(points.size() + 1);
-    for (size_t i = 0; i < points.size(); ++i) {
-        vertices[i].position = {static_cast<float>(points[i].x), static_cast<float>(points[i].y)};
-        vertices[i].color = getColor();
-    }
-    vertices[points.size()] = vertices[0]; // Замыкание полигона
-
-    // Теперь рисуем заполненный полигон
-    SDL_RenderGeometry(render, nullptr, vertices.data(), vertices.size(), nullptr, 0);
+        for(int i = 0; i < points.size() - 1; i++)
+        {
+            verticec[i].position = {static_cast<float>(points[i].x), static_cast<float>(points[i].y)};
+            verticec[i].color = getColor();
+        }
+        SDL_RenderGeometry(render, nullptr, verticec, points.size(), nullptr, 0);
     }
 
 }
