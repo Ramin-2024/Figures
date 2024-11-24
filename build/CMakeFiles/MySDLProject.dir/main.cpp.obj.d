@@ -404,8 +404,6 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
  C:/Users/ramag/Desktop/SDL2/Include/Shapes.h \
  C:/Users/ramag/Desktop/SDL2/Include/Figure.h \
- C:/msys64/ucrt64/include/c++/14.1.0/array \
- C:/msys64/ucrt64/include/c++/14.1.0/compare \
  C:/Users/ramag/Desktop/SDL2/Include/Circle.h \
  C:/Users/ramag/Desktop/SDL2/Include/Rectangle.h \
  C:/Users/ramag/Desktop/SDL2/Include/Square.h \

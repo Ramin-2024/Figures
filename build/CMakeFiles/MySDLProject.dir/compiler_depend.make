@@ -59,35 +59,59 @@ CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
+  C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.1.0/vector \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -285,7 +309,6 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
@@ -329,12 +352,15 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/string_view.tcc \
@@ -342,11 +368,11 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
   C:/msys64/ucrt64/include/c++/14.1.0/cctype \
   C:/msys64/ucrt64/include/c++/14.1.0/cerrno \
   C:/msys64/ucrt64/include/c++/14.1.0/clocale \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
   C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdio \
@@ -378,6 +404,7 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.1.0/typeinfo \
+  C:/msys64/ucrt64/include/c++/14.1.0/vector \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -598,35 +625,59 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
+  C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.1.0/vector \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -822,35 +873,59 @@ CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/C
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
+  C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.1.0/vector \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -1046,35 +1121,59 @@ CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
+  C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.1.0/vector \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -1270,35 +1369,59 @@ CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CP
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
+  C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
+  C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
+  C:/msys64/ucrt64/include/c++/14.1.0/vector \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -1508,7 +1631,6 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/basetsd.h \
   C:/msys64/ucrt64/include/bcrypt.h \
   C:/msys64/ucrt64/include/bemapiset.h \
-  C:/msys64/ucrt64/include/c++/14.1.0/array \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
@@ -1573,7 +1695,6 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/c++/14.1.0/cctype \
   C:/msys64/ucrt64/include/c++/14.1.0/cerrno \
   C:/msys64/ucrt64/include/c++/14.1.0/clocale \
-  C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
   C:/msys64/ucrt64/include/c++/14.1.0/cstddef \
   C:/msys64/ucrt64/include/c++/14.1.0/cstdio \
@@ -1916,17 +2037,15 @@ C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_blendmode
 
 C:/Users/ramag/Desktop/SDL2/CPP/Circle.cpp:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vbmiintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_guid.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h:
 
 C:/msys64/ucrt64/include/stdint.h:
 
@@ -2006,8 +2125,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/vector:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vnnivlintrin.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h:
@@ -2066,11 +2183,15 @@ C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bit:
 
+C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h:
+
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_quit.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/ammintrin.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h:
 
@@ -2082,11 +2203,11 @@ C:/msys64/ucrt64/include/pshpack2.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_timer.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/cstddef:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xopintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/usermsrintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/cstddef:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_touch.h:
 
@@ -2116,17 +2237,39 @@ C:/msys64/ucrt64/include/winsvc.h:
 
 C:/msys64/ucrt64/include/_mingw_off_t.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h:
+
 C:/msys64/ucrt64/include/_mingw_stdarg.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vlintrin.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/array:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h:
+
+C:/msys64/ucrt64/include/basetsd.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h:
+
+C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h:
 
 C:/msys64/ucrt64/include/rpcsal.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/rtmintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/lzcntintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h:
 
@@ -2136,9 +2279,19 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h:
+
+C:/msys64/ucrt64/include/sysinfoapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h:
 
@@ -2156,7 +2309,29 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx5124vnniwintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/tsxldtrkintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/pkuintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vnniintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h:
+
+C:/msys64/ucrt64/include/fileapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h:
+
+C:/msys64/ucrt64/include/joystickapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stddef.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc:
 
 C:/msys64/ucrt64/include/interlockedapi.h:
 
@@ -2167,8 +2342,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_string.tcc:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/immintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/compare:
 
 C:/msys64/ucrt64/include/processenv.h:
 
@@ -2184,6 +2357,8 @@ C:/msys64/ucrt64/include/_mingw_stat64.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h:
+
 C:/msys64/ucrt64/include/virtdisk.h:
 
 C:/msys64/ucrt64/include/shellapi.h:
@@ -2198,11 +2373,15 @@ C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/tuple:
+
 C:/msys64/ucrt64/include/ktmtypes.h:
 
 C:/msys64/ucrt64/include/datetimeapi.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/type_traits:
+
+C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/msys64/ucrt64/include/namespaceapi.h:
 
@@ -2334,13 +2513,7 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vlbwintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vldqintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/tsxldtrkintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/pkuintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vnniintrin.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vlintrin.h:
 
 C:/msys64/ucrt64/include/synchapi.h:
 
@@ -2414,12 +2587,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/keylockerintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/limits.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/rtmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/lzcntintrin.h:
-
 C:/msys64/ucrt64/include/wingdi.h:
 
 C:/msys64/ucrt64/include/objidl.h:
@@ -2477,10 +2644,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/smmintrin.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/syslimits.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stdarg.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stdint.h:
 
@@ -2542,12 +2705,6 @@ C:/Users/ramag/Desktop/SDL2/Include/CustomForm.h:
 
 C:/msys64/ucrt64/include/_timeval.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h:
-
 C:/msys64/ucrt64/include/cguid.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_ios.h:
@@ -2566,17 +2723,7 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_forced.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_init_exception.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_ptr.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h:
-
-C:/msys64/ucrt64/include/basetsd.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.tcc:
 
@@ -2584,21 +2731,9 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/localefwd.h:
 
-C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h:
-
 C:/msys64/ucrt64/include/oaidl.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream_insert.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h:
-
-C:/msys64/ucrt64/include/sysinfoapi.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf.tcc:
 
@@ -2607,14 +2742,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf_iterator.h:
 C:/msys64/ucrt64/include/c++/14.1.0/bits/string_view.tcc:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stringfwd.h:
-
-C:/msys64/ucrt64/include/fileapi.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h:
-
-C:/msys64/ucrt64/include/joystickapi.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/cctype:
 
@@ -2627,8 +2754,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/cwctype:
 C:/msys64/ucrt64/include/psdk_inc/_ip_types.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/exception:
-
-C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/ext/string_conversions.h:
 
@@ -2650,11 +2775,7 @@ C:/msys64/ucrt64/include/c++/14.1.0/streambuf:
 
 C:/msys64/ucrt64/include/c++/14.1.0/string:
 
-C:/msys64/ucrt64/include/c++/14.1.0/tuple:
-
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/atomic_word.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
@@ -2705,10 +2826,6 @@ C:/msys64/ucrt64/include/psdk_inc/_ip_mreq1.h:
 C:/msys64/ucrt64/include/apisetcconv.h:
 
 C:/msys64/ucrt64/include/bemapiset.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h:
 
 C:/msys64/ucrt64/include/string.h:
 
