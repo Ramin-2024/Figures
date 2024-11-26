@@ -2,6 +2,7 @@
 #define CUSTOMFORM_H
 
 #include "Figure.h"
+#include <stack>
 #include <iostream>
 class CustomForm : public Figure
 {
@@ -16,7 +17,8 @@ class CustomForm : public Figure
     bool line = false;
     bool fill = false;
     void draw(SDL_Renderer* render) override;
-    
+    void ScanFill(SDL_Renderer *render, SDL_Color color);
+
 };
 
 #endif

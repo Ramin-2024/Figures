@@ -131,26 +131,11 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ramag\Desktop\SDL2\CPP\Figure.cpp -o CMakeFiles\MySDLProject.dir\CPP\Figure.cpp.s
 
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: CMakeFiles/MySDLProject.dir/flags.make
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: CMakeFiles/MySDLProject.dir/includes_CXX.rsp
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/Rectangle.cpp
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: CMakeFiles/MySDLProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj -MF CMakeFiles\MySDLProject.dir\CPP\Rectangle.cpp.obj.d -o CMakeFiles\MySDLProject.dir\CPP\Rectangle.cpp.obj -c C:\Users\ramag\Desktop\SDL2\CPP\Rectangle.cpp
-
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ramag\Desktop\SDL2\CPP\Rectangle.cpp > CMakeFiles\MySDLProject.dir\CPP\Rectangle.cpp.i
-
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ramag\Desktop\SDL2\CPP\Rectangle.cpp -o CMakeFiles\MySDLProject.dir\CPP\Rectangle.cpp.s
-
 CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: CMakeFiles/MySDLProject.dir/flags.make
 CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: CMakeFiles/MySDLProject.dir/includes_CXX.rsp
 CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/Square.cpp
 CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: CMakeFiles/MySDLProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj -MF CMakeFiles\MySDLProject.dir\CPP\Square.cpp.obj.d -o CMakeFiles\MySDLProject.dir\CPP\Square.cpp.obj -c C:\Users\ramag\Desktop\SDL2\CPP\Square.cpp
 
 CMakeFiles/MySDLProject.dir/CPP/Square.cpp.i: cmake_force
@@ -165,7 +150,7 @@ CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: CMakeFiles/MySDLProject.dir/fl
 CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: CMakeFiles/MySDLProject.dir/includes_CXX.rsp
 CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/Triangle.cpp
 CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: CMakeFiles/MySDLProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj -MF CMakeFiles\MySDLProject.dir\CPP\Triangle.cpp.obj.d -o CMakeFiles\MySDLProject.dir\CPP\Triangle.cpp.obj -c C:\Users\ramag\Desktop\SDL2\CPP\Triangle.cpp
 
 CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.i: cmake_force
@@ -176,15 +161,30 @@ CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ramag\Desktop\SDL2\CPP\Triangle.cpp -o CMakeFiles\MySDLProject.dir\CPP\Triangle.cpp.s
 
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj: CMakeFiles/MySDLProject.dir/flags.make
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj: CMakeFiles/MySDLProject.dir/includes_CXX.rsp
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/Rect.cpp
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj: CMakeFiles/MySDLProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj -MF CMakeFiles\MySDLProject.dir\CPP\Rect.cpp.obj.d -o CMakeFiles\MySDLProject.dir\CPP\Rect.cpp.obj -c C:\Users\ramag\Desktop\SDL2\CPP\Rect.cpp
+
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ramag\Desktop\SDL2\CPP\Rect.cpp > CMakeFiles\MySDLProject.dir\CPP\Rect.cpp.i
+
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ramag\Desktop\SDL2\CPP\Rect.cpp -o CMakeFiles\MySDLProject.dir\CPP\Rect.cpp.s
+
 # Object files for target MySDLProject
 MySDLProject_OBJECTS = \
 "CMakeFiles/MySDLProject.dir/main.cpp.obj" \
 "CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj" \
 "CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj" \
 "CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj" \
-"CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj" \
 "CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj" \
-"CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj"
+"CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj" \
+"CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj"
 
 # External object files for target MySDLProject
 MySDLProject_EXTERNAL_OBJECTS =
@@ -193,9 +193,9 @@ MySDLProject.exe: CMakeFiles/MySDLProject.dir/main.cpp.obj
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj
-MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj
+MySDLProject.exe: CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/build.make
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/linkLibs.rsp
 MySDLProject.exe: CMakeFiles/MySDLProject.dir/objects1.rsp

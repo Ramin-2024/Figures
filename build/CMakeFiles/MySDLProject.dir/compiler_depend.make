@@ -59,8 +59,10 @@ CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
@@ -81,16 +83,20 @@ CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -106,6 +112,8 @@ CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
@@ -309,8 +317,10 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_ios.h \
@@ -323,6 +333,7 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_forced.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_ptr.h \
@@ -351,20 +362,26 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/string_view.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -381,6 +398,7 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/cwctype \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/deque \
   C:/msys64/ucrt64/include/c++/14.1.0/exception \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/atomicity.h \
@@ -394,7 +412,10 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: C:/Users/ramag/Desktop/SDL2/
   C:/msys64/ucrt64/include/c++/14.1.0/istream \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/ostream \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/stack \
   C:/msys64/ucrt64/include/c++/14.1.0/stdexcept \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/streambuf \
@@ -625,8 +646,10 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
@@ -647,16 +670,20 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -672,6 +699,8 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
@@ -815,7 +844,7 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsavesintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xtestintrin.h
 
-CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/Rectangle.cpp \
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/Rect.cpp \
   C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL.h \
   C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
   C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \
@@ -867,14 +896,16 @@ CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/C
   C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/begin_code.h \
   C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/close_code.h \
   C:/Users/ramag/Desktop/SDL2/Include/Figure.h \
-  C:/Users/ramag/Desktop/SDL2/Include/Rectangle.h \
+  C:/Users/ramag/Desktop/SDL2/Include/Rect.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
@@ -895,16 +926,20 @@ CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/C
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -920,6 +955,8 @@ CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/C
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
@@ -1121,8 +1158,10 @@ CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
@@ -1143,16 +1182,20 @@ CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -1168,6 +1211,8 @@ CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: C:/Users/ramag/Desktop/SDL2/CPP/
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
@@ -1369,8 +1414,10 @@ CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CP
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
@@ -1391,16 +1438,20 @@ CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CP
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -1416,6 +1467,8 @@ CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj: C:/Users/ramag/Desktop/SDL2/CP
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
@@ -1613,7 +1666,7 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/Users/ramag/Desktop/SDL2/Include/Circle.h \
   C:/Users/ramag/Desktop/SDL2/Include/CustomForm.h \
   C:/Users/ramag/Desktop/SDL2/Include/Figure.h \
-  C:/Users/ramag/Desktop/SDL2/Include/Rectangle.h \
+  C:/Users/ramag/Desktop/SDL2/Include/Rect.h \
   C:/Users/ramag/Desktop/SDL2/Include/Shapes.h \
   C:/Users/ramag/Desktop/SDL2/Include/Square.h \
   C:/Users/ramag/Desktop/SDL2/Include/Triangle.h \
@@ -1631,8 +1684,10 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/basetsd.h \
   C:/msys64/ucrt64/include/bcrypt.h \
   C:/msys64/ucrt64/include/bemapiset.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bit \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_ios.h \
@@ -1645,6 +1700,7 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_forced.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_ptr.h \
@@ -1673,20 +1729,26 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/string_view.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
@@ -1703,6 +1765,7 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/c++/14.1.0/cwctype \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/deque \
   C:/msys64/ucrt64/include/c++/14.1.0/exception \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/atomicity.h \
@@ -1716,7 +1779,10 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: C:/Users/ramag/Desktop/SDL2/main.cpp \
   C:/msys64/ucrt64/include/c++/14.1.0/istream \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
   C:/msys64/ucrt64/include/c++/14.1.0/ostream \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/stack \
   C:/msys64/ucrt64/include/c++/14.1.0/stdexcept \
   C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
   C:/msys64/ucrt64/include/c++/14.1.0/streambuf \
@@ -2155,19 +2221,19 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/pmmintrin.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h:
 
-C:/msys64/ucrt64/include/wtypes.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/lwpintrin.h:
-
-C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_metal.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h:
-
 C:/msys64/ucrt64/include/wincon.h:
 
 C:/msys64/ucrt64/include/pshpack8.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h:
+
+C:/msys64/ucrt64/include/wtypes.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/lwpintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h:
+
+C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_metal.h:
 
 C:/msys64/ucrt64/include/servprov.h:
 
@@ -2195,6 +2261,8 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/alloc_traits.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h:
+
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_surface.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_thread.h:
@@ -2202,6 +2270,10 @@ C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_thread.h:
 C:/msys64/ucrt64/include/pshpack2.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_timer.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/cstdlib:
+
+C:/msys64/ucrt64/include/c++/14.1.0/algorithm:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xopintrin.h:
 
@@ -2221,6 +2293,8 @@ C:/msys64/ucrt64/include/vadefs.h:
 
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_version.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h:
+
 C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/begin_code.h:
 
 C:/msys64/ucrt64/include/crtdefs.h:
@@ -2236,6 +2310,8 @@ C:/msys64/ucrt64/include/_mingw_mac.h:
 C:/msys64/ucrt64/include/winsvc.h:
 
 C:/msys64/ucrt64/include/_mingw_off_t.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h:
 
@@ -2283,6 +2359,12 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h:
 
+C:/msys64/ucrt64/include/process.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h:
@@ -2292,6 +2374,8 @@ C:/msys64/ucrt64/include/sysinfoapi.h:
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h:
 
@@ -2309,6 +2393,10 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx5124vnniwintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vldqintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/tsxldtrkintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/pkuintrin.h:
@@ -2319,11 +2407,17 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h:
 
+C:/msys64/ucrt64/include/stdarg.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h:
+
 C:/msys64/ucrt64/include/fileapi.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h:
 
 C:/msys64/ucrt64/include/joystickapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h:
 
@@ -2347,8 +2441,6 @@ C:/msys64/ucrt64/include/processenv.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/concepts:
 
-C:/msys64/ucrt64/include/c++/14.1.0/cstdlib:
-
 C:/msys64/ucrt64/include/driverspecs.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h:
@@ -2366,6 +2458,8 @@ C:/msys64/ucrt64/include/shellapi.h:
 C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/initializer_list:
+
+C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc:
 
@@ -2388,10 +2482,6 @@ C:/msys64/ucrt64/include/namespaceapi.h:
 C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h:
-
-C:/msys64/ucrt64/include/process.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.h:
 
@@ -2432,8 +2522,6 @@ C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
 C:/msys64/ucrt64/include/sdkddkver.h:
 
 C:/msys64/ucrt64/include/setjmp.h:
-
-C:/msys64/ucrt64/include/stdarg.h:
 
 C:/msys64/ucrt64/include/mmsyscom.h:
 
@@ -2511,8 +2599,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vbmi2vlintrin.h
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vlbwintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vldqintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vlintrin.h:
 
 C:/msys64/ucrt64/include/synchapi.h:
@@ -2538,6 +2624,8 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avxvnniint16intrin.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avxvnniint8intrin.h:
 
 C:/msys64/ucrt64/include/winuser.h:
+
+C:/Users/ramag/Desktop/SDL2/Include/Rect.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avxvnniintrin.h:
 
@@ -2647,8 +2735,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stdarg.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stdint.h:
 
-C:/Users/ramag/Desktop/SDL2/CPP/Rectangle.cpp:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/tbmintrin.h:
 
 C:/msys64/ucrt64/include/winver.h:
@@ -2666,8 +2752,6 @@ C:/msys64/ucrt64/include/pthread_time.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/vpclmulqdqintrin.h:
 
 C:/msys64/ucrt64/include/sal.h:
-
-C:/Users/ramag/Desktop/SDL2/Include/Rectangle.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsaveintrin.h:
 
@@ -2723,7 +2807,11 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_forced.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_init_exception.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_ptr.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/stack:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.tcc:
 
@@ -2750,6 +2838,10 @@ C:/msys64/ucrt64/include/c++/14.1.0/cwchar:
 C:/msys64/ucrt64/include/c++/14.1.0/cstdio:
 
 C:/msys64/ucrt64/include/c++/14.1.0/cwctype:
+
+C:/msys64/ucrt64/include/timeapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/deque:
 
 C:/msys64/ucrt64/include/psdk_inc/_ip_types.h:
 
@@ -2808,6 +2900,8 @@ C:/msys64/ucrt64/include/sys/timeb.h:
 C:/msys64/ucrt64/include/wchar.h:
 
 C:/msys64/ucrt64/include/wctype.h:
+
+C:/Users/ramag/Desktop/SDL2/CPP/Rect.cpp:
 
 C:/Users/ramag/Desktop/SDL2/Include/Square.h:
 
@@ -2914,8 +3008,6 @@ C:/msys64/ucrt64/include/stralign.h:
 C:/msys64/ucrt64/include/systemtopologyapi.h:
 
 C:/msys64/ucrt64/include/threadpoollegacyapiset.h:
-
-C:/msys64/ucrt64/include/timeapi.h:
 
 C:/msys64/ucrt64/include/tvout.h:
 

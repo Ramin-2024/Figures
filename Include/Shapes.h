@@ -3,9 +3,9 @@
 
 #include "Figure.h"
 #include "Circle.h"
-#include "Rectangle.h"
 #include "Square.h"
 #include "Triangle.h"
 #include "CustomForm.h"
+#include "Rect.h"
 
 #endif

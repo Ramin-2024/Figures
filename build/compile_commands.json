@@ -25,12 +25,6 @@
 },
 {
   "directory": "C:/Users/ramag/Desktop/SDL2/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Rectangle.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Rectangle.cpp",
-  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Rectangle.cpp",
-  "output": "CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj"
-},
-{
-  "directory": "C:/Users/ramag/Desktop/SDL2/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Square.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Square.cpp",
   "file": "C:/Users/ramag/Desktop/SDL2/CPP/Square.cpp",
   "output": "CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj"
@@ -40,5 +34,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Triangle.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Triangle.cpp",
   "file": "C:/Users/ramag/Desktop/SDL2/CPP/Triangle.cpp",
   "output": "CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Rect.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Rect.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/Rect.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj"
 }
 ]

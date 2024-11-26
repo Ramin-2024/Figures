@@ -404,9 +404,22 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
  C:/Users/ramag/Desktop/SDL2/Include/Shapes.h \
  C:/Users/ramag/Desktop/SDL2/Include/Figure.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
  C:/Users/ramag/Desktop/SDL2/Include/Circle.h \
- C:/Users/ramag/Desktop/SDL2/Include/Rectangle.h \
  C:/Users/ramag/Desktop/SDL2/Include/Square.h \
  C:/Users/ramag/Desktop/SDL2/Include/Triangle.h \
  C:/Users/ramag/Desktop/SDL2/Include/CustomForm.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/stack \
+ C:/msys64/ucrt64/include/c++/14.1.0/deque \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h \
+ C:/Users/ramag/Desktop/SDL2/Include/Rect.h \
  C:/Users/ramag/Desktop/SDL2/Include/Figure.h

@@ -2,6 +2,7 @@
 #define FIGURE_H
 
 #include <vector>
+#include <algorithm>
 #include <SDL2/SDL.h>
 
 class Figure

@@ -16,9 +16,9 @@ set(SOURCES
     CPP/Circle.cpp
     CPP/CustomForm.cpp
     CPP/Figure.cpp
-    CPP/Rectangle.cpp
     CPP/Square.cpp
     CPP/Triangle.cpp
+    CPP/Rect.cpp
 )
 
 # Создание исполняемого файла

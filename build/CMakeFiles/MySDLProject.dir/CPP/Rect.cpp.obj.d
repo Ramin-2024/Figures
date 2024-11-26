@@ -1,6 +1,6 @@
-CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj: \
- C:\Users\ramag\Desktop\SDL2\CPP\Square.cpp \
- C:/Users/ramag/Desktop/SDL2/Include/Square.h \
+CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj: \
+ C:\Users\ramag\Desktop\SDL2\CPP\Rect.cpp \
+ C:/Users/ramag/Desktop/SDL2/Include/Rect.h \
  C:/Users/ramag/Desktop/SDL2/Include/Figure.h \
  C:/msys64/ucrt64/include/c++/14.1.0/vector \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \

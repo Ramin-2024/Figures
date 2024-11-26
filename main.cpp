@@ -45,8 +45,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     SDL_Event event;
     SDL_Color green = {0, 255, 0, 255};
     CustomForm cust(green);
-    
-
+    Rect rect(50, 100, 100, 350, green);
+    Triangle trio(200, 50, 300, 50, 400, 100, render, green);
     while (running) {
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
@@ -75,9 +75,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         SDL_RenderClear(render);
 
         cust.draw(render);
-        
-        
-        
+        rect.draw(render);
+        trio.draw(render);
 
         SDL_RenderPresent(render);
 

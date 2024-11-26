@@ -200,29 +200,29 @@ CPP/Figure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.s
 .PHONY : CPP/Figure.cpp.s
 
-CPP/Rectangle.obj: CPP/Rectangle.cpp.obj
-.PHONY : CPP/Rectangle.obj
+CPP/Rect.obj: CPP/Rect.cpp.obj
+.PHONY : CPP/Rect.obj
 
 # target to build an object file
-CPP/Rectangle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.obj
-.PHONY : CPP/Rectangle.cpp.obj
+CPP/Rect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj
+.PHONY : CPP/Rect.cpp.obj
 
-CPP/Rectangle.i: CPP/Rectangle.cpp.i
-.PHONY : CPP/Rectangle.i
+CPP/Rect.i: CPP/Rect.cpp.i
+.PHONY : CPP/Rect.i
 
 # target to preprocess a source file
-CPP/Rectangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.i
-.PHONY : CPP/Rectangle.cpp.i
+CPP/Rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.i
+.PHONY : CPP/Rect.cpp.i
 
-CPP/Rectangle.s: CPP/Rectangle.cpp.s
-.PHONY : CPP/Rectangle.s
+CPP/Rect.s: CPP/Rect.cpp.s
+.PHONY : CPP/Rect.s
 
 # target to generate assembly for a file
-CPP/Rectangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rectangle.cpp.s
-.PHONY : CPP/Rectangle.cpp.s
+CPP/Rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.s
+.PHONY : CPP/Rect.cpp.s
 
 CPP/Square.obj: CPP/Square.cpp.obj
 .PHONY : CPP/Square.obj
@@ -314,9 +314,9 @@ help:
 	@echo ... CPP/Figure.obj
 	@echo ... CPP/Figure.i
 	@echo ... CPP/Figure.s
-	@echo ... CPP/Rectangle.obj
-	@echo ... CPP/Rectangle.i
-	@echo ... CPP/Rectangle.s
+	@echo ... CPP/Rect.obj
+	@echo ... CPP/Rect.i
+	@echo ... CPP/Rect.s
 	@echo ... CPP/Square.obj
 	@echo ... CPP/Square.i
 	@echo ... CPP/Square.s

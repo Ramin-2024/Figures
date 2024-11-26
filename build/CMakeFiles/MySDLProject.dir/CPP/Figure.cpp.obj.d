@@ -61,6 +61,26 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/14.1.0/tuple \
+ C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL.h \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_main.h \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h \
@@ -92,18 +112,6 @@ CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj: \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h \
  C:/msys64/ucrt64/include/intrin.h C:/msys64/ucrt64/include/setjmp.h \
  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
- C:/msys64/ucrt64/include/c++/14.1.0/stdlib.h \
- C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
- C:/msys64/ucrt64/include/stdlib.h \
- C:/msys64/ucrt64/include/corecrt_wstdlib.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/limits.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/syslimits.h \
- C:/msys64/ucrt64/include/limits.h \
- C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/malloc.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mm_malloc.h \
- C:/msys64/ucrt64/include/errno.h \
- C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/x86intrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/x86gprintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/ia32intrin.h \
