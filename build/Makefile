@@ -152,6 +152,30 @@ CPP/Circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Circle.cpp.s
 .PHONY : CPP/Circle.cpp.s
 
+CPP/Cub.obj: CPP/Cub.cpp.obj
+.PHONY : CPP/Cub.obj
+
+# target to build an object file
+CPP/Cub.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Cub.cpp.obj
+.PHONY : CPP/Cub.cpp.obj
+
+CPP/Cub.i: CPP/Cub.cpp.i
+.PHONY : CPP/Cub.i
+
+# target to preprocess a source file
+CPP/Cub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Cub.cpp.i
+.PHONY : CPP/Cub.cpp.i
+
+CPP/Cub.s: CPP/Cub.cpp.s
+.PHONY : CPP/Cub.s
+
+# target to generate assembly for a file
+CPP/Cub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Cub.cpp.s
+.PHONY : CPP/Cub.cpp.s
+
 CPP/CustomForm.obj: CPP/CustomForm.cpp.obj
 .PHONY : CPP/CustomForm.obj
 
@@ -224,30 +248,6 @@ CPP/Rect.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.s
 .PHONY : CPP/Rect.cpp.s
 
-CPP/Square.obj: CPP/Square.cpp.obj
-.PHONY : CPP/Square.obj
-
-# target to build an object file
-CPP/Square.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Square.cpp.obj
-.PHONY : CPP/Square.cpp.obj
-
-CPP/Square.i: CPP/Square.cpp.i
-.PHONY : CPP/Square.i
-
-# target to preprocess a source file
-CPP/Square.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Square.cpp.i
-.PHONY : CPP/Square.cpp.i
-
-CPP/Square.s: CPP/Square.cpp.s
-.PHONY : CPP/Square.s
-
-# target to generate assembly for a file
-CPP/Square.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Square.cpp.s
-.PHONY : CPP/Square.cpp.s
-
 CPP/Triangle.obj: CPP/Triangle.cpp.obj
 .PHONY : CPP/Triangle.obj
 
@@ -308,6 +308,9 @@ help:
 	@echo ... CPP/Circle.obj
 	@echo ... CPP/Circle.i
 	@echo ... CPP/Circle.s
+	@echo ... CPP/Cub.obj
+	@echo ... CPP/Cub.i
+	@echo ... CPP/Cub.s
 	@echo ... CPP/CustomForm.obj
 	@echo ... CPP/CustomForm.i
 	@echo ... CPP/CustomForm.s
@@ -317,9 +320,6 @@ help:
 	@echo ... CPP/Rect.obj
 	@echo ... CPP/Rect.i
 	@echo ... CPP/Rect.s
-	@echo ... CPP/Square.obj
-	@echo ... CPP/Square.i
-	@echo ... CPP/Square.s
 	@echo ... CPP/Triangle.obj
 	@echo ... CPP/Triangle.i
 	@echo ... CPP/Triangle.s

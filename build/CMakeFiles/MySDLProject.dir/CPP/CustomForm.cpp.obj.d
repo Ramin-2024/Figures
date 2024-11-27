@@ -251,11 +251,6 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_locale.h \
  C:/Users/ramag/Desktop/SDL2-2.30.8/x86_64-w64-mingw32/include/SDL2/SDL_misc.h \
- C:/msys64/ucrt64/include/c++/14.1.0/stack \
- C:/msys64/ucrt64/include/c++/14.1.0/deque \
- C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h \
- C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
- C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h \
  C:/msys64/ucrt64/include/c++/14.1.0/iostream \
  C:/msys64/ucrt64/include/c++/14.1.0/ostream \
  C:/msys64/ucrt64/include/c++/14.1.0/ios \
@@ -323,4 +318,9 @@ CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.1.0/istream \
- C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/14.1.0/stack \
+ C:/msys64/ucrt64/include/c++/14.1.0/deque \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h

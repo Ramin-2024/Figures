@@ -413,7 +413,6 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
  C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
  C:/Users/ramag/Desktop/SDL2/Include/Circle.h \
- C:/Users/ramag/Desktop/SDL2/Include/Square.h \
  C:/Users/ramag/Desktop/SDL2/Include/Triangle.h \
  C:/Users/ramag/Desktop/SDL2/Include/CustomForm.h \
  C:/msys64/ucrt64/include/c++/14.1.0/stack \
@@ -422,4 +421,5 @@ CMakeFiles/MySDLProject.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_stack.h \
  C:/Users/ramag/Desktop/SDL2/Include/Rect.h \
+ C:/Users/ramag/Desktop/SDL2/Include/Cub.h \
  C:/Users/ramag/Desktop/SDL2/Include/Figure.h
