@@ -1,16 +1,34 @@
 #include "CustomForm.h"
 
+int centerX;
+int centerY;
 std::vector<SDL_Point> CustomForm::getPoints() const {return points;}
 void CustomForm::setPoints(std::vector <SDL_Point> newPoints) {points = newPoints;}
 
 
-CustomForm::CustomForm(SDL_Color color) : Figure(0, 0, color) {}
+CustomForm::CustomForm(SDL_Color color) : Figure(center().x, center().y, color) 
+{
+}
 void CustomForm::addPoint(SDL_Point point) 
 {
     if(points.size() < 6)
     points.push_back(point);
 }
-
+SDL_Point CustomForm::center()
+{
+    
+    SDL_Point centroid;
+    for(int i = 0; i < points.size()-1; i++)
+    {
+       centerX = points[i].x + points[i+1].x;
+       centerY = points[i].y + points[i+1].x;
+    }
+    centroid.x = centerX/points.size();
+    centroid.y = centerY/points.size();
+    //std::cout << "x = " << centroid.x << "y = " << centroid.y;
+    return centroid;
+}
+int mas = 0;
 void CustomForm::draw(SDL_Renderer* render) 
 {
     
@@ -37,7 +55,9 @@ void CustomForm::draw(SDL_Renderer* render)
         ScanFill(render, getColor());
     }
 
+    
 }
+
 void CustomForm::ScanFill(SDL_Renderer* render, SDL_Color color) 
 {
     SDL_SetRenderDrawColor(render, color.r, color.g, color.b, color.a);
@@ -82,6 +102,8 @@ void CustomForm::ScanFill(SDL_Renderer* render, SDL_Color color)
             }
         }
     }
+    
+    center();
 }
 
 

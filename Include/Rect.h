@@ -21,6 +21,7 @@ class Rect : public Figure
 
     Rect(int x, int y, int width, int height, SDL_Color color);
     void draw(SDL_Renderer* render) override;
+    virtual SDL_Point center() override;
 };
 
 #endif

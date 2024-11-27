@@ -18,7 +18,7 @@ class CustomForm : public Figure
     bool fill = false;
     void draw(SDL_Renderer* render) override;
     void ScanFill(SDL_Renderer *render, SDL_Color color);
-
+    virtual SDL_Point center() override;
 };
 
 #endif

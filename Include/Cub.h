@@ -1,9 +1,9 @@
-#ifndef SQUARE_H
-#define SQUARE_H
+#ifndef CUB_H
+#define CUB_H
 
 #include "Figure.h"
 
-class Square : public Figure
+class Cub : public Figure
 {
     private:
     int width;
@@ -17,8 +17,10 @@ class Square : public Figure
     void setHeight(int newHeight);
     SDL_Rect getRect() const;
     void setRect(SDL_Rect& newRect);
-    Square(int sides, int x, int y, SDL_Color color);
+    Cub(int sides, int x, int y, SDL_Color color);
     void draw(SDL_Renderer* render) override;
+    virtual SDL_Point center() override;
 };
+
 
 #endif

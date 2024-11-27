@@ -1,6 +1,13 @@
 #include "Circle.h"
 
 Circle::Circle(int x, int y, SDL_Color color, int radius) : Figure(x, y, color), radius(radius), diameter(radius * 2) {}
+SDL_Point Circle::center()
+{
+    SDL_Point centroid;
+    centroid.x = getX();
+    centroid.y = getY();
+    return centroid;
+}
 void Circle::draw(SDL_Renderer* render) 
 {
         if (render == nullptr) return;
