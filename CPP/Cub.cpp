@@ -8,7 +8,7 @@ void Cub::setRect(SDL_Rect& newRect) {rect = newRect;}
 
 Cub::Cub(int sides, int x, int y, SDL_Color color) : Figure(x, y, color), width(sides), height(sides), rect({x, y, width, height}) 
 {
-    //center();
+    center();
 }
 
 SDL_Point Cub::center()

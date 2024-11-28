@@ -16,6 +16,7 @@ SDL_Point Triangle::center()
     std::cout << "x = " << centroid.x << "y = " << centroid.y; 
     return centroid;
 }
+
 void Triangle::draw(SDL_Renderer* render)
     {
         if(render != nullptr)

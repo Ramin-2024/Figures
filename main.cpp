@@ -45,8 +45,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     SDL_Event event;
     SDL_Color green = {0, 255, 0, 255};
     CustomForm cust(green);
-    Rect rect(50, 100, 100, 350, green);
-    Triangle trio(200, 50, 300, 50, 400, 100, render, green);
+    //Rect rect(50, 100, 100, 350, green);
+    //Triangle trio(200, 50, 300, 50, 400, 100, render, green);
+    Cub cub(100, 200, 300, green);
+    Cub cub2(200, 300, 350, green);
     while (running) {
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
@@ -57,7 +59,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
                 cust.line = true;
                 SDL_MouseButtonEvent* mouse = (SDL_MouseButtonEvent*)&event;
                 cust.addPoint({mouse->x, mouse->y});
-                //}
+                
                
             }
             else if(event.type == SDL_KEYDOWN)
@@ -74,13 +76,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); 
         SDL_RenderClear(render);
 
+        cub.draw(render);
+        cub2.draw(render);
         cust.draw(render);
-        rect.draw(render);
-        trio.draw(render);
-
         SDL_RenderPresent(render);
 
     }
+
     quit();
     return 0;
 }

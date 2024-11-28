@@ -8,6 +8,7 @@ SDL_Point Circle::center()
     centroid.y = getY();
     return centroid;
 }
+
 void Circle::draw(SDL_Renderer* render) 
 {
         if (render == nullptr) return;

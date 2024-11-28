@@ -8,6 +8,7 @@ class CustomForm : public Figure
 {
     private:
     std::vector<SDL_Point> points;
+    SDL_Point previousCenter = {0, 0};
 
     public:
     CustomForm(SDL_Color color);
@@ -19,6 +20,7 @@ class CustomForm : public Figure
     void draw(SDL_Renderer* render) override;
     void ScanFill(SDL_Renderer *render, SDL_Color color);
     virtual SDL_Point center() override;
+
 };
 
 #endif

@@ -39,6 +39,7 @@ SDL_Point Rect::center()
     std::cout << "x = " << centroid.x << "y = " << centroid.y;
     return centroid;
 }
+
 void Rect::draw(SDL_Renderer* render) 
 {
     SDL_SetRenderDrawColor(render, getColor().r, getColor().g, getColor().b, getColor().a);

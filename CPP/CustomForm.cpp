@@ -1,12 +1,10 @@
 #include "CustomForm.h"
 
-int centerX;
-int centerY;
 std::vector<SDL_Point> CustomForm::getPoints() const {return points;}
 void CustomForm::setPoints(std::vector <SDL_Point> newPoints) {points = newPoints;}
 
 
-CustomForm::CustomForm(SDL_Color color) : Figure(center().x, center().y, color) 
+CustomForm::CustomForm(SDL_Color color) : Figure(0, 0, color) 
 {
 }
 void CustomForm::addPoint(SDL_Point point) 
@@ -18,17 +16,25 @@ SDL_Point CustomForm::center()
 {
     
     SDL_Point centroid;
-    for(int i = 0; i < points.size()-1; i++)
-    {
-       centerX = points[i].x + points[i+1].x;
-       centerY = points[i].y + points[i+1].x;
+    int centerX = 0;
+    int centerY = 0;
+
+    for (size_t i = 0; i < points.size(); ++i) {
+        centerX += points[i].x;
+        centerY += points[i].y;
     }
-    centroid.x = centerX/points.size();
-    centroid.y = centerY/points.size();
-    //std::cout << "x = " << centroid.x << "y = " << centroid.y;
+
+    centroid.x = centerX / points.size();
+    centroid.y = centerY / points.size();
+
+    // Проверка на изменение центра
+    if (centroid.x != previousCenter.x || centroid.y != previousCenter.y) {
+        std::cout << "Center: x = " << centroid.x << ", y = " << centroid.y << std::endl;
+        previousCenter = centroid; // Обновляем предыдущий центр
+    }
     return centroid;
 }
-int mas = 0;
+
 void CustomForm::draw(SDL_Renderer* render) 
 {
     
@@ -52,10 +58,14 @@ void CustomForm::draw(SDL_Renderer* render)
 
     if(fill && points.size() > 1)
     {
-        ScanFill(render, getColor());
+        ScanFill(render, getColor()); 
     }
-
-    
+    if(points.size() > 1)
+    { 
+    center();
+    SDL_SetRenderDrawColor(render, 0, 0, 0, 255);
+    SDL_RenderDrawPoint(render, center().x, center().y);
+    }
 }
 
 void CustomForm::ScanFill(SDL_Renderer* render, SDL_Color color) 
@@ -102,8 +112,6 @@ void CustomForm::ScanFill(SDL_Renderer* render, SDL_Color color)
             }
         }
     }
-    
-    center();
 }
 
 
