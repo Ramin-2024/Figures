@@ -27,7 +27,7 @@ bool sdl_init(const char* title, int width, int height) {
         std::cerr << "Renderer to error " << SDL_GetError() << std::endl;
         SDL_DestroyWindow(window);
         SDL_Quit();
-        return false;
+        return false; //
     }
     return true;
 }

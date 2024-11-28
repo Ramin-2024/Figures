@@ -10,7 +10,7 @@ Cub::Cub(int sides, int x, int y, SDL_Color color) : Figure(x, y, color), width(
 {
     center();
 }
-
+//
 SDL_Point Cub::center()
 {
     SDL_Point centroid;
