@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ramag/Desktop/SDL2/CPP/Cub.cpp" "CMakeFiles/MySDLProject.dir/CPP/Cub.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/CPP/Cub.cpp.obj.d"
   "C:/Users/ramag/Desktop/SDL2/CPP/CustomForm.cpp" "CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj.d"
   "C:/Users/ramag/Desktop/SDL2/CPP/Figure.cpp" "CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj.d"
+  "C:/Users/ramag/Desktop/SDL2/CPP/RandomForm.cpp" "CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.obj.d"
   "C:/Users/ramag/Desktop/SDL2/CPP/Rect.cpp" "CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj.d"
   "C:/Users/ramag/Desktop/SDL2/CPP/Triangle.cpp" "CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj.d"
   "C:/Users/ramag/Desktop/SDL2/main.cpp" "CMakeFiles/MySDLProject.dir/main.cpp.obj" "gcc" "CMakeFiles/MySDLProject.dir/main.cpp.obj.d"

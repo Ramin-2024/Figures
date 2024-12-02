@@ -40,5 +40,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\Cub.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\Cub.cpp",
   "file": "C:/Users/ramag/Desktop/SDL2/CPP/Cub.cpp",
   "output": "CMakeFiles/MySDLProject.dir/CPP/Cub.cpp.obj"
+},
+{
+  "directory": "C:/Users/ramag/Desktop/SDL2/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/MySDLProject.dir/includes_CXX.rsp -g -o CMakeFiles\\MySDLProject.dir\\CPP\\RandomForm.cpp.obj -c C:\\Users\\ramag\\Desktop\\SDL2\\CPP\\RandomForm.cpp",
+  "file": "C:/Users/ramag/Desktop/SDL2/CPP/RandomForm.cpp",
+  "output": "CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.obj"
 }
 ]

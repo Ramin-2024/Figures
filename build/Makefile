@@ -224,6 +224,30 @@ CPP/Figure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.s
 .PHONY : CPP/Figure.cpp.s
 
+CPP/RandomForm.obj: CPP/RandomForm.cpp.obj
+.PHONY : CPP/RandomForm.obj
+
+# target to build an object file
+CPP/RandomForm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.obj
+.PHONY : CPP/RandomForm.cpp.obj
+
+CPP/RandomForm.i: CPP/RandomForm.cpp.i
+.PHONY : CPP/RandomForm.i
+
+# target to preprocess a source file
+CPP/RandomForm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.i
+.PHONY : CPP/RandomForm.cpp.i
+
+CPP/RandomForm.s: CPP/RandomForm.cpp.s
+.PHONY : CPP/RandomForm.s
+
+# target to generate assembly for a file
+CPP/RandomForm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.s
+.PHONY : CPP/RandomForm.cpp.s
+
 CPP/Rect.obj: CPP/Rect.cpp.obj
 .PHONY : CPP/Rect.obj
 
@@ -317,6 +341,9 @@ help:
 	@echo ... CPP/Figure.obj
 	@echo ... CPP/Figure.i
 	@echo ... CPP/Figure.s
+	@echo ... CPP/RandomForm.obj
+	@echo ... CPP/RandomForm.i
+	@echo ... CPP/RandomForm.s
 	@echo ... CPP/Rect.obj
 	@echo ... CPP/Rect.i
 	@echo ... CPP/Rect.s

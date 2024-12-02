@@ -84,12 +84,12 @@ clean: CMakeFiles/MySDLProject.dir/clean
 CMakeFiles/MySDLProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MySDLProject.dir\build.make CMakeFiles/MySDLProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target MySDLProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ramag\Desktop\SDL2\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target MySDLProject"
 .PHONY : CMakeFiles/MySDLProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MySDLProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ramag\Desktop\SDL2\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ramag\Desktop\SDL2\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MySDLProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ramag\Desktop\SDL2\build\CMakeFiles 0
 .PHONY : CMakeFiles/MySDLProject.dir/rule

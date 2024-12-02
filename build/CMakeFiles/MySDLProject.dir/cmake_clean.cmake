@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MySDLProject.dir/CPP/CustomForm.cpp.obj.d"
   "CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj"
   "CMakeFiles/MySDLProject.dir/CPP/Figure.cpp.obj.d"
+  "CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.obj"
+  "CMakeFiles/MySDLProject.dir/CPP/RandomForm.cpp.obj.d"
   "CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj"
   "CMakeFiles/MySDLProject.dir/CPP/Rect.cpp.obj.d"
   "CMakeFiles/MySDLProject.dir/CPP/Triangle.cpp.obj"
