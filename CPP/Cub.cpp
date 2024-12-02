@@ -8,20 +8,23 @@ void Cub::setRect(SDL_Rect& newRect) {rect = newRect;}
 
 Cub::Cub(int sides, int x, int y, SDL_Color color) : Figure(x, y, color), width(sides), height(sides), rect({x, y, width, height}) 
 {
-    center();
+    //center();
 }
-//
-SDL_Point Cub::center()
+
+/*SDL_Point Cub::center()
 {
     SDL_Point centroid;
     centroid.x = (getX() + (getX() + width)) / 2;
     centroid.y = (getY() + (getY() + height)) / 2;
-    std::cout << "x = " << centroid.x << "y = " << centroid.y;
+    
     return centroid;
 }
-
+*/
 void Cub::draw(SDL_Renderer* render)
 {
     SDL_SetRenderDrawColor(render, getColor().r, getColor().g, getColor().b, getColor().a);
     SDL_RenderFillRect(render, &rect);
+    //SDL_SetRenderDrawColor(render, 0, 0, 0, 255);
+    //SDL_RenderDrawPoint(render, center().x, center().y);
 }
+

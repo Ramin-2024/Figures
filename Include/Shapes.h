@@ -7,5 +7,5 @@
 #include "CustomForm.h"
 #include "Rect.h"
 #include "Cub.h"
-
+#include "RandomForm.h"
 #endif

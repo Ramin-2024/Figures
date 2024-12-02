@@ -27,7 +27,7 @@ bool sdl_init(const char* title, int width, int height) {
         std::cerr << "Renderer to error " << SDL_GetError() << std::endl;
         SDL_DestroyWindow(window);
         SDL_Quit();
-        return false; //
+        return false;
     }
     return true;
 }
@@ -45,10 +45,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     SDL_Event event;
     SDL_Color green = {0, 255, 0, 255};
     CustomForm cust(green);
-    //Rect rect(50, 100, 100, 350, green);
-    //Triangle trio(200, 50, 300, 50, 400, 100, render, green);
-    Cub cub(100, 200, 300, green);
-    Cub cub2(200, 300, 350, green);
+    Rect rect(50, 100, 100, 350, green);
     while (running) {
         while (SDL_PollEvent(&event)) {
             if (event.type == SDL_QUIT) {
@@ -69,6 +66,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
                         case SDLK_e:
                         cust.fill = true;
                         break;
+                        case SDLK_a:
+                        rect.move(5, 0);
+                        break;
                     }
                 }
         }
@@ -76,13 +76,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         SDL_SetRenderDrawColor(render, 255, 255, 255, 255); 
         SDL_RenderClear(render);
 
-        cub.draw(render);
-        cub2.draw(render);
         cust.draw(render);
+        rect.draw(render);
+
+
         SDL_RenderPresent(render);
 
     }
-
     quit();
     return 0;
 }

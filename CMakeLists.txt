@@ -19,6 +19,7 @@ set(SOURCES
     CPP/Triangle.cpp
     CPP/Rect.cpp
     CPP/Cub.cpp
+    CPP/RandomForm.cpp
 )
 
 # Создание исполняемого файла

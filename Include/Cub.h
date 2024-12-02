@@ -19,7 +19,8 @@ class Cub : public Figure
     void setRect(SDL_Rect& newRect);
     Cub(int sides, int x, int y, SDL_Color color);
     void draw(SDL_Renderer* render) override;
-    virtual SDL_Point center() override;
+    //virtual SDL_Point center() override;
+   
 };
 
 

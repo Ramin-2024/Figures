@@ -20,8 +20,10 @@ class Rect : public Figure
 
 
     Rect(int x, int y, int width, int height, SDL_Color color);
+    void move(int dx, int dy);
     void draw(SDL_Renderer* render) override;
-    virtual SDL_Point center() override;
+    //virtual SDL_Point center() override;
+    
 };
 
 #endif
